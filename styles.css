@@ -1,1 +1,22 @@
 /*  your css code here. If applicable */
+.hero {
+	display:flex;
+	justify-content:center;
+	text-align:center;
+	align-items:center;
+	flex-direction:column;
+}
+.myphoto {
+	width: 400px;
+	height: 200px;
+	object-fit: cover;
+}
+.press {
+	display:inline-block;
+	padding: 10px;
+	background-color: lightgray;
+	color:black;
+	border-radius: 5px;
+	text-decoration:none;
+	
+}
